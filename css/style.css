@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+header{
+    background-color:#eff1f5;
+    position:sticky;
+    top: 0;
+    z-index: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.logo{
+    width: 180px;
+}
+.logo img{
+    width: 100%;
+}
+.list ul{
+    list-style: none;
+    display: flex;
+}
+.list li a {
+    margin-right: 1rem;
+
+}
+.list li a:hover{
+    content: " ";
+    position: relative;
+    background-color: red;
+    border-radius: 20px;
+    width: 5px;
+    height: 3px;
+}
+
+.welcome{
+    display: flex;
+    background-image: url(/img/header-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 600px;
+    color: #eff1f5;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.welcome h2{
+    font-size: 20px;
+}
+.welcome button{
+    background-color: yellow;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0px 6px 10px rgba(0,0,0,.1);
+    margin-top: 1rem;
+    font-size: 24px;
+}
+.SERVICES{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.serlist{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.box svg{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 40px;
+    margin: 1rem;
+}
+svg{
+    width: 100%;
+}
+footer{
+    background-color:#26272b;
+}
+.footer{
+    padding:55px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#737373;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lfoot{
+    width: 30%;
+
+}
+.footer li{
+    list-style: none;
+
+}
+.porducts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #737373;
+}
+.porduct{
+    width: 33.33%;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0);
+}
+.porduct img {
+    width: 100%;
+}
+.porduct:hover{
+    background-color: rgb(85, 128, 128);
+}
